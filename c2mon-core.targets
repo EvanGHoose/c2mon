@@ -1,0 +1,11 @@
+# This is the target file for c2mon, a tool for monitoring host uptime.
+# Hashtags mark comments, everything else is regarded as an IP address
+# in the forms:
+#
+# IPv4:
+# 127.0.0.1:9876
+#
+# IPv6:
+# [0:0:0:0:0:0:0:1]:80
+127.0.0.1:1234
+[::1]:1234
