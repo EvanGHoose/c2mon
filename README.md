@@ -18,8 +18,8 @@ Output file: /etc/c2mon/c2mon-core.output
 
 ##Install Script
 ----------------
-The install script needs to be run with root privleges, and assumes Rust has
-already been installed and that it is being run from the cloned repository.
+The install script needs to be run with root privleges from the cloned 
+repository.
 
 The install script will move c2mon-core into /sbin, create the directory
 /etc/c2mon , and move the targets and uninstall files into /etc/c2mon .
@@ -34,7 +34,10 @@ by c2mon-core.
 
 ##Manual Install/Uninstall
 --------------------------
-You will of course need to compile the program to start out, see this page:
+
+###Compiling the program
+========================
+If you want to compile the program yourself, see this page:
 https://www.rust-lang.org/tools/install for information on how to install
 Rust.
 
@@ -46,6 +49,10 @@ $rustc /path/to/c2mon-core.rs
 
 to compile the program.
 
+Otherwise, I've included a compiled binary in the git repository.
+
+###Installing
+=============
 
 c2mon-core has three expectations.
 
